@@ -13,6 +13,7 @@ module Rails6Playground
     config.generators do |g|
       g.orm :active_record, primary_key_type: :uuid
       g.scaffold_stylesheet false
+      g.helper :false
     end
 
     # Settings in config/environments/* take precedence over those specified here.
